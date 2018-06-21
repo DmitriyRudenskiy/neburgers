@@ -1,0 +1,3 @@
+CREATE TABLE `users` ( `id` INT NOT NULL AUTO_INCREMENT , `email` INT NOT NULL , PRIMARY KEY (`id`), UNIQUE (`email`)) ENGINE = InnoDB;
+
+ALTER TABLE `users` CHANGE `email` `email` VARCHAR(255) NOT NULL;
